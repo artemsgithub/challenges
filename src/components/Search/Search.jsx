@@ -1,6 +1,7 @@
 import React from 'react';
 // import SearchIndex from './SearchIndex';
 import { Container } from 'reactstrap';
+import SearchIndex from './SearchIndex'
  
 const Search = () => {
    return (
@@ -22,7 +23,8 @@ const Search = () => {
          </li>
        </ul>
        <hr />
-       {/* <SearchIndex /> */}
+       <SearchIndex />
+
      </Container>
    );
 

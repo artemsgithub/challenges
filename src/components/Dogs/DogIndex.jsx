@@ -7,6 +7,7 @@ export default class DogIndex extends React.Component {
         this.state = {
             url: ''
         }
+        
         this.fetchDog = this.fetchDog.bind(this)
     }
 

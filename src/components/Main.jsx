@@ -5,7 +5,7 @@ import Nav from './Nav';
 import Cats from './Cats/Cats';
 import Dogs from './Dogs/Dogs';
 import Search from './Search/Search';
-import ToDo from './ToDo/ToDo';
+import ToDoInstructions from './ToDo/ToDoInstructions';
 
 
 export default function Main () {
@@ -17,7 +17,7 @@ export default function Main () {
             <Route exact path="/cats"><Cats /></Route>
             <Route exact path="/search" component={ Search } />
             <Route exact path="/dogs" component={ Dogs } />
-            <Route exact path="/todo" component={ ToDo } />
+            <Route exact path="/todo" component={ ToDoInstructions } />
         </Switch>
       </Router>
     </>

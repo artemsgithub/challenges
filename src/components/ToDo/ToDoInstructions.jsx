@@ -1,7 +1,8 @@
 import React from 'react';
 import {Container} from 'reactstrap';
+import ToDoList from './ToDoList'
 
-const ToDo = () => {
+const ToDoInstructions = () => {
   return(
     <Container className="App">
      <br />
@@ -24,8 +25,10 @@ const ToDo = () => {
          </li>
        </ul>
        <hr />
+
+      <ToDoList/>
      </Container>
   );
 };
 
-export default ToDo
+export default ToDoInstructions

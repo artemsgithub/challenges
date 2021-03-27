@@ -17,7 +17,8 @@ export default class ToDoList extends Component {
     }
 
     setToDo(e) {
-        this.setState({userInput: e.target.value})   
+        this.setState({userInput: e.target.value})
+   
     }
 
     onFormSubmit(e) {
